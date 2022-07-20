@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="text/javascript" src="https://livejs.com/live.js"></script>
+    <script src="https://code.iconify.design/2/2.1.0/iconify.min.js" defer>
+      {}
+    </script>
+    <script type="module" src="/src/main.ts"></script>
+  </head>
+  <body
+    class="flex flex-col justify-center w-full min-h-screen text-white bg-zinc-900"
+  >
+    <nav
+      class="fixed z-[9999] top-0 left-0 flex items-center justify-between w-full p-8"
+    >
+      <div class="flex items-center justify-center">
+        <a href="/" class="text-2xl font-bold tracking-widest text-white">
+          <span class="text-teal-500">C</span>ringe
+        </a>
+      </div>
+      <ul class="flex items-center font-medium gap-12">
+        <li class="flex items-center font-semibold">
+          <a href="/" class="text-teal-500"> Home </a>
+        </li>
+        <li class="flex items-center">
+          <a href="/about" class="text-white"> About </a>
+        </li>
+        <li class="flex items-center">
+          <a href="/contact" class="text-white"> Contact </a>
+        </li>
+        <li>
+          <a
+            href="/login"
+            class="flex items-center px-6 py-4 pr-4 font-bold bg-teal-500 text-zinc-900 rounded-md"
+          >
+            Get Started
+            <span class="ml-2 w-7 h-7 iconify" data-icon="uil:arrow-right"
+              >.</span
+            >
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="flex h-screen p-24 mt-6 gap-12">
+      <div class="w-1/2 my-auto">
+        <div class="">
+          <p class="mb-4 text-2xl font-medium tracking-wide text-teal-500">
+            Just made this for fun
+          </p>
+          <h1 class="font-bold text-white text-7xl">
+            Welcome to a <span class="text-teal-500">useless</span> website
+          </h1>
+          <p class="my-6 mb-8 text-lg font-light tracking-wide text-zinc-400">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam,
+            quidem reprehenderit in voluptate.
+          </p>
+        </div>
+        <div class="flex items-center gap-4">
+          <a
+            href="/login"
+            class="flex items-center px-8 py-5 pr-6 text-xl font-semibold bg-teal-500 whitespace-nowrap text-zinc-900 w-min rounded-md"
+          >
+            Get Started
+            <span class="w-8 h-8 ml-2 iconify" data-icon="uil:arrow-right"
+              >.</span
+            >
+          </a>
+          <a
+            href="/about"
+            class="flex items-center px-8 py-5 text-xl font-semibold bg-white text-zinc-900 rounded-md"
+          >
+            Learn More
+          </a>
+        </div>
+      </div>
+      <div class="w-1/2 my-auto stack">
+        <div class="w-full flex flex-col rounded-lg bg-zinc-800 p-4 h-[30rem]">
+          <div class="flex gap-2">
+            <i class="block w-4 h-4 bg-white rounded-full bg-opacity-10"
+              ><!----></i
+            >
+            <i class="block w-4 h-4 bg-white rounded-full bg-opacity-10"
+              ><!----></i
+            >
+            <i class="block w-4 h-4 bg-white rounded-full bg-opacity-10"
+              ><!----></i
+            >
+          </div>
+          <div class="flex items-center justify-center flex-1 w-full">
+            <button
+              class="px-8 py-5 text-xl font-bold bg-teal-500 shadow-lg text-zinc-900 rounded-md shadow-teal-800"
+            >
+              A button
+            </button>
+          </div>
+          <p class="text-center text-zinc-700">What the hell is this?</p>
+        </div>
+        <div
+          class="w-full flex flex-col rounded-lg bg-teal-500 p-4 h-[30rem] -mb-4"
+        ></div>
+        <div
+          class="w-full flex flex-col rounded-lg bg-teal-500 p-4 h-[30rem] -mb-8"
+        ></div>
+      </div>
+    </div>
+    <div class="w-full h-screen p-24">
+      <p
+        class="text-lg font-medium tracking-widest text-center text-teal-500 uppercase"
+      >
+        GET READY TO FML ;-;
+      </p>
+      <h2 class="my-2 mb-4 text-5xl font-bold text-center">
+        Everything you need for a better life
+      </h2>
+      <p
+        class="px-64 text-lg font-light tracking-wide text-center text-zinc-400"
+      >
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+        ut aliquip ex ea commodo reprehenderit in voluptate consequat.
+      </p>
+      <div class="mt-24 grid grid-cols-3 gap-10 gap-y-16">
+        <div class="relative w-full h-48 rounded-lg bg-zinc-800">
+          <div
+            class="absolute top-0 inline-block p-3 bg-teal-500 rounded-md left-1/2 -tranzinc-x-1/2 -tranzinc-y-1/2"
+          >
+            <i class="w-7 h-7 iconify text-zinc-900" data-icon="uil:monitor"
+              ><!----></i
+            >
+          </div>
+          <h3 class="mt-16 text-lg font-medium tracking-wide text-center">
+            Get a Computer
+          </h3>
+          <p
+            class="px-8 mt-6 font-light tracking-wide text-center text-zinc-400"
+          >
+            If you don't own a computer, you're a disgrace to your family.
+          </p>
+        </div>
+        <div class="relative w-full h-48 rounded-lg bg-zinc-800">
+          <div
+            class="absolute top-0 inline-block p-3 bg-teal-500 rounded-md left-1/2 -tranzinc-x-1/2 -tranzinc-y-1/2"
+          >
+            <i class="w-7 h-7 iconify text-zinc-900" data-icon="uil:code"
+              ><!----></i
+            >
+          </div>
+          <h3 class="mt-16 text-lg font-medium tracking-wide text-center">
+            Write Some Code
+          </h3>
+          <p
+            class="px-8 mt-6 font-light tracking-wide text-center text-zinc-400"
+          >
+            Everyone should write code. If you can't, you're a disgrace to your
+            family.
+          </p>
+        </div>
+        <div class="relative w-full h-48 rounded-lg bg-zinc-800">
+          <div
+            class="absolute top-0 inline-block p-3 bg-teal-500 rounded-md left-1/2 -tranzinc-x-1/2 -tranzinc-y-1/2"
+          >
+            <i class="w-7 h-7 iconify text-zinc-900" data-icon="uil:lightbulb"
+              ><!----></i
+            >
+          </div>
+          <h3 class="mt-16 text-lg font-medium tracking-wide text-center">
+            Think of your Life
+          </h3>
+          <p
+            class="px-8 mt-6 font-light tracking-wide text-center text-zinc-400"
+          >
+            Writing code makes you want to think about the meaning of your life.
+          </p>
+        </div>
+        <div class="relative w-full h-48 rounded-lg bg-zinc-800">
+          <div
+            class="absolute top-0 inline-block p-3 bg-teal-500 rounded-md left-1/2 -tranzinc-x-1/2 -tranzinc-y-1/2"
+          >
+            <i class="w-7 h-7 iconify text-zinc-900" data-icon="uil:coffee"
+              ><!----></i
+            >
+          </div>
+          <h3 class="mt-16 text-lg font-medium tracking-wide text-center">
+            Get a Cup of Coffee
+          </h3>
+          <p
+            class="px-8 mt-6 font-light tracking-wide text-center text-zinc-400"
+          >
+            A cup or two coffees always makes you feel better.
+          </p>
+        </div>
+        <div class="relative w-full h-48 rounded-lg bg-zinc-800">
+          <div
+            class="absolute top-0 inline-block p-3 bg-teal-500 rounded-md left-1/2 -tranzinc-x-1/2 -tranzinc-y-1/2"
+          >
+            <i class="w-7 h-7 iconify text-zinc-900" data-icon="uil:users-alt"
+              ><!----></i
+            >
+          </div>
+          <h3 class="mt-16 text-lg font-medium tracking-wide text-center">
+            Code with your Friends
+          </h3>
+          <p
+            class="px-8 mt-6 font-light tracking-wide text-center text-zinc-400"
+          >
+            Now you have found someone who listens attentively to your anxiety.
+          </p>
+        </div>
+        <div class="relative w-full h-48 rounded-lg bg-zinc-800">
+          <div
+            class="absolute top-0 inline-block p-3 bg-teal-500 rounded-md left-1/2 -tranzinc-x-1/2 -tranzinc-y-1/2"
+          >
+            <span class="block font-bold text-center w-7 h-7 text-zinc-900"
+              >;-;</span
+            >
+          </div>
+          <h3 class="mt-16 text-lg font-medium tracking-wide text-center">
+            Fuck your Life
+          </h3>
+          <p
+            class="px-8 mt-6 font-light tracking-wide text-center text-zinc-400"
+          >
+            Life is short, so don't waste it coding something you're not
+            interested.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="flex items-center w-full my-24 gap-16">
+      <div class="w-1/2 pl-24">
+        <span class="inline-block p-3 bg-teal-500 rounded-md">
+          <i class="w-7 h-7 iconify text-zinc-900" data-icon="uil:paint-tool"
+            ><!----></i
+          >
+        </span>
+        <h2 class="my-4 text-4xl font-bold">Well designed interface</h2>
+        <p class="text-xl font-light tracking-wide text-zinc-400">
+          Ultrices tincidunt arcu non sodales neque. Enim blandit volutpat
+          maecenas volutpat. Cursus sit amet dictum sit. Risus quis varius quam
+          quisque id diam vel.
+        </p>
+        <a
+          href="/"
+          class="inline-block px-6 py-4 mt-6 text-lg font-medium bg-teal-500 rounded-md text-zinc-900"
+        >
+          Get started
+        </a>
+        <div class="pt-6 mt-8 border-t border-zinc-700">
+          <p class="font-light tracking-wide text-zinc-400">
+            "At lectus urna duis convallis convallis tellus. Mi ipsum faucibus
+            vitae aliquet nec ullamcorper sit amet. Leo vel fringilla est
+            ullamcorper eget nulla."
+          </p>
+          <div class="flex items-center mt-4 gap-2">
+            <span
+              class="inline-block w-8 h-8 overflow-hidden rounded-full bg-zinc-800"
+            >
+              <img src="https://i.pravatar.cc/150?img=11" alt="" />
+            </span>
+            John Doe, Creator of this website
+          </div>
+        </div>
+      </div>
+      <div class="flex items-center w-1/2">
+        <div class="border-4 border-teal-500 mockup-phone">
+          <div class="camera"></div>
+          <div class="display">
+            <div class="artboard artboard-demo phone-1 bg-zinc-800">
+              Hello ;-;
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex items-center w-full my-24 gap-16">
+      <div class="flex items-center w-1/2 -ml-4">
+        <div
+          class="w-full border-4 border-teal-500 mockup-window bg-zinc-700 bg-opacity-50 h-[30rem]"
+        >
+          <div
+            class="flex items-center justify-center h-full px-4 pb-8 bg-zinc-800"
+          >
+            Hello ;-;
+          </div>
+        </div>
+      </div>
+      <div class="w-1/2 pr-24">
+        <span class="inline-block p-3 bg-teal-500 rounded-md">
+          <i class="w-7 h-7 iconify text-zinc-900" data-icon="uil:mouse-alt"
+            ><!----></i
+          >
+        </span>
+        <h2 class="my-4 text-4xl font-bold">A tons of stuff you want</h2>
+        <p class="text-xl font-light tracking-wide text-zinc-400">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+        <a
+          href="/"
+          class="inline-block px-6 py-4 mt-6 text-lg font-medium bg-teal-500 rounded-md text-zinc-900"
+        >
+          Get started
+        </a>
+      </div>
+    </div>
+    <div class="w-full p-24">
+      <p
+        class="text-lg font-medium tracking-widest text-center text-teal-500 uppercase"
+      >
+        Give me your money
+      </p>
+      <h2 class="my-2 mb-4 text-5xl font-bold text-center">
+        You're rich if you can affort this
+      </h2>
+      <p
+        class="px-64 text-lg font-light tracking-wide text-center text-zinc-400"
+      >
+        Lectus sit amet est placerat in egestas erat. Id nibh tortor id aliquet
+        lectus proin nibh nisl condimentum. Nisl nisi scelerisque eu ultrices
+        vitae auctor eu.
+      </p>
+      <div class="flex items-center justify-center w-full mt-24">
+        <div class="relative shadow-xl w-96 h-min bg-zinc-800 rounded-l-xl">
+          <h3
+            class="mt-12 mb-2 text-3xl font-semibold tracking-wide text-center"
+          >
+            Hobby
+          </h3>
+          <h4
+            class="flex items-start justify-center text-5xl font-bold text-center"
+          >
+            <span class="pr-2 mt-1 text-3xl font-medium">$</span>249<span
+              class="inline-block pl-2 mt-2 text-2xl font-medium text-zinc-400"
+              >/ month</span
+            >
+          </h4>
+          <div class="flex flex-col p-8 mt-8 border-t border-zinc-700 gap-6">
+            <div class="flex gap-4 text-zinc-400">
+              <i class="w-6 h-6 text-teal-500 iconify" data-icon="uil:check"
+                ><!----></i
+              >
+              Id interdum velit laoreet id
+            </div>
+            <div class="flex gap-4 text-zinc-400">
+              <i class="w-6 h-6 text-teal-500 iconify" data-icon="uil:check"
+                ><!----></i
+              >
+              Mattis nunc sed blandit libero
+            </div>
+            <div class="flex gap-4 text-zinc-400">
+              <i class="w-6 h-6 text-teal-500 iconify" data-icon="uil:check"
+                ><!----></i
+              >
+              Turpis in eu mi bibendum neque
+            </div>
+          </div>
+          <a
+            href="/"
+            class="block py-4 m-8 text-xl font-semibold text-center text-white rounded-lg shadow-lg bg-zinc-700"
+            >Start your trial</a
+          >
+        </div>
+        <div
+          class="relative border-2 border-teal-500 w-[32rem] bg-zinc-800 rounded-xl shadow-xl shadow-teal-900"
+        >
+          <span
+            class="absolute top-0 inline-block px-4 py-1 text-sm font-medium uppercase bg-teal-500 rounded-full left-1/2 -tranzinc-x-1/2 -tranzinc-y-1/2 text-zinc-900"
+            >Most Popular</span
+          >
+          <h3
+            class="mt-12 mb-2 text-3xl font-semibold tracking-wide text-center"
+          >
+            Pro
+          </h3>
+          <h4
+            class="flex items-start justify-center text-5xl font-bold text-center"
+          >
+            <span class="pr-2 mt-1 text-3xl font-medium">$</span>549<span
+              class="inline-block pl-2 mt-2 text-2xl font-medium text-zinc-400"
+              >/ month</span
+            >
+          </h4>
+          <div class="flex flex-col p-8 mt-8 border-t border-zinc-700 gap-6">
+            <div class="flex gap-4 text-zinc-400">
+              <i class="w-6 h-6 text-teal-500 iconify" data-icon="uil:check"
+                ><!----></i
+              >
+              Nibh praesent tristique magna
+            </div>
+            <div class="flex gap-4 text-zinc-400">
+              <i class="w-6 h-6 text-teal-500 iconify" data-icon="uil:check"
+                ><!----></i
+              >
+              Id interdum velit laoreet id
+            </div>
+            <div class="flex gap-4 text-zinc-400">
+              <i class="w-6 h-6 text-teal-500 iconify" data-icon="uil:check"
+                ><!----></i
+              >
+              Mattis nunc sed blandit libero
+            </div>
+            <div class="flex gap-4 text-zinc-400">
+              <i class="w-6 h-6 text-teal-500 iconify" data-icon="uil:check"
+                ><!----></i
+              >
+              Turpis in eu mi bibendum neque
+            </div>
+          </div>
+          <a
+            href="/"
+            class="block py-4 m-8 text-xl font-semibold text-center bg-teal-500 rounded-lg text-zinc-900"
+            >Start your trial</a
+          >
+        </div>
+        <div class="relative shadow-xl w-96 h-min bg-zinc-800 rounded-r-xl">
+          <h3
+            class="mt-12 mb-2 text-3xl font-semibold tracking-wide text-center"
+          >
+            Enterprise
+          </h3>
+          <h4
+            class="flex items-start justify-center text-5xl font-bold text-center"
+          >
+            <span class="pr-2 mt-1 text-3xl font-medium">$</span>849<span
+              class="inline-block pl-2 mt-2 text-2xl font-medium text-zinc-400"
+              >/ month</span
+            >
+          </h4>
+          <div class="flex flex-col p-8 mt-8 border-t border-zinc-700 gap-6">
+            <div class="flex gap-4 text-zinc-400">
+              <i class="w-6 h-6 text-teal-500 iconify" data-icon="uil:check"
+                ><!----></i
+              >
+              Id interdum velit laoreet id
+            </div>
+            <div class="flex gap-4 text-zinc-400">
+              <i class="w-6 h-6 text-teal-500 iconify" data-icon="uil:check"
+                ><!----></i
+              >
+              Mattis nunc sed blandit libero
+            </div>
+            <div class="flex gap-4 text-zinc-400">
+              <i class="w-6 h-6 text-teal-500 iconify" data-icon="uil:check"
+                ><!----></i
+              >
+              Turpis in eu mi bibendum neque
+            </div>
+          </div>
+          <a
+            href="/"
+            class="block py-4 m-8 text-xl font-medium text-center text-white rounded-lg shadow-lg bg-zinc-700"
+            >Start your trial</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-col items-center w-full py-24">
+      <img src="./logo.svg" alt="" class="w-42" />
+      <p class="px-64 py-12 text-2xl leading-normal text-center">
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex."
+      </p>
+      <div class="flex items-center text-lg gap-4">
+        <span
+          class="inline-block w-8 h-8 overflow-hidden rounded-full bg-zinc-800"
+        >
+          <img src="https://i.pravatar.cc/150?img=12" alt="" />
+        </span>
+        Nick Edison <span class="font-bold text-teal-500">/</span>
+        <span class="text-zinc-400">CEO of this LogoIpsum</span>
+      </div>
+    </div>
+    <div class="flex mx-24 mb-24 overflow-hidden bg-teal-500 shadow-xl rounded-xl gap-12 shadow-teal-800">
+      <div class="w-1/2 p-20">
+        <h2 class="text-[2.5rem] leading-none font-bold w-80">
+          Ready to cringe? Start your free trial today.
+        </h2>
+        <p class="w-full my-6 text-lg text-teal-100 mb-7 opacity-80">
+          Cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+          cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+          id est laborum.
+        </p>
+        <a
+          href="/"
+          class="inline-block px-8 py-4 text-lg font-medium text-teal-500 bg-white rounded-md"
+          >Sign up for free</a
+        >
+      </div>
+      <div class="flex items-end justify-end flex-1 w-1/2 overflow-hidden">
+        <div class="w-[140%] h-[26rem] -mr-4 -mb-4 mockup-window bg-zinc-700">
+          <div
+            class="flex items-center justify-center h-full px-4 py-16 font-bold text-7xl bg-zinc-800 text-zinc-600"
+          >
+            ;-;
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
